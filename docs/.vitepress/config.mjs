@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base:'/learning-Python/',
+    base:"/learning-Python/",
   title: "Learning Python",
   description: "A VitePress Site",
   themeConfig: {
