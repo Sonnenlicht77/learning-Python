@@ -8,19 +8,38 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '语法基础', link: '/01_base_py/index' },
+      { text: '爬虫' , link:'/02_crawler_py/index'}
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar:{
+        '/01_base_py':[
+            {
+                text: '语法基础',
+                base:'/01_base_py',
+                link:'/index'
+                items:[
+                    {
+                        text:'数据类型',
+                        link:'/01.数据类型.md'
+                    }
+                ]
+            }
+        ],
+      '/02_crawler_py':[
+        {
+             text:'爬虫',
+             link:'/index',
+             base:'/02_crawler_py',
+             items:[
+                {
+                    text:'urllib',
+                    link:'/01.urllib'
+                }
+             ]
+        }
+     ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
