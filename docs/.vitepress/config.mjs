@@ -20,8 +20,8 @@ export default defineConfig({
                 link:'/index',
                 items:[
                     {
-                        text:'数据类型',
-                        link:'/01.数据类型.md'
+                        text:'变量/输入输出',
+                        link:'/01.变量_输入输出.md'
                     }
                 ]
             }
