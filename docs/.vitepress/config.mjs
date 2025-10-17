@@ -17,7 +17,7 @@ export default defineConfig({
             {
                 text: '语法基础',
                 base:'/01_base_py',
-                link:'/index'
+                link:'/index',
                 items:[
                     {
                         text:'数据类型',
@@ -42,7 +42,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Sonnenlicht77/learning-Python' }
     ]
   }
 })
